@@ -1,4 +1,4 @@
-package com.irsan.javaexercise;
+package com.irsan.javaexercise.iseng;
 
 import java.time.Instant;
 

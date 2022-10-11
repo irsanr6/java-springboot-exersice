@@ -1,4 +1,6 @@
-package com.irsan.javaexercise;
+package com.irsan.javaexercise.iseng;
+
+import com.irsan.javaexercise.util.Helpers;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
@@ -19,12 +21,12 @@ public class JavaConvertEpochDatetime {
         System.out.println("--------------<>--------------");
 
         long myBirth = 916160400000L;
-        String strDate = "13-01-1999 00:00:00";
+        String strDate = "13-01-1999 12:41:15";
 
-        String formatDatetime = Utils.epochToDatetime(myBirth);
+        String formatDatetime = Helpers.epochToDatetime(myBirth);
         System.out.println(formatDatetime);
 
-        long epochMilli = Utils.dateimeToEpoch(strDate);
+        long epochMilli = Helpers.datetimeToEpoch(strDate);
         System.out.println(epochMilli);
 
     }
